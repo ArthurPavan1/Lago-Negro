@@ -1,0 +1,16 @@
+body {
+  background-image: url(assets/Lago-Negro.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#page {
+  width: 375px;
+  height: 646px;
+  padding: 101px;
+  background-color: #D7E3A8;
+  border-radius: 10px;
+  margin: auto;
+}
