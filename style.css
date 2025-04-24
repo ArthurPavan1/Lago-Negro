@@ -7,10 +7,28 @@ body {
 }
 
 #page {
-  width: 375px;
-  height: 646px;
+  width: 475px;
+  height: 823px;
   padding: 101px;
-  background-color: #D7E3A8;
+  padding-top: 30px;
+  background-color: #C1CC97 ;
   border-radius: 10px;
   margin: auto;
+  margin-top: 60px;
+  opacity: 75%;
+}
+
+img.Turtle, img.Swan {
+  width: 335px;
+  max-width: 335px;
+  height: auto; /* vai garantir que a altura é proporcional */
+}
+
+
+#photos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: none;
+  gap: 14px;
 }
