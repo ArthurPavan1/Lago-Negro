@@ -1,18 +1,18 @@
 body {
-  background-image: url(assets/Lago-Negro.png);
+  background-image: url(assets/Lago-Negro2.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-color: #414E25;
 }
 
 #page {
   width: 40rem;
   height: auto;
-  padding: 2rem;
   padding: 2.5rem;
   background-color: #C1CC97 ;
-  border-radius: 0.625rem; 
+  border-radius: 1rem; 
   margin: auto;
   margin-top: 3.75rem;
   opacity: 65%;
@@ -29,7 +29,7 @@ img.Turtle, img.Swan {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: none;
+  margin: 0;
   gap: 14px;
 }
 
@@ -76,4 +76,14 @@ h2 {
   border: none; /* Isso tira a borda que veio na linha*/
   height: 2px;
   background-color: #414E25;
+}
+
+footer {
+  text-align: center;
+  margin-top: 5px;
+  padding: 20px;
+  font-family: "Alice", serif;
+  font-size: 1rem;
+  color: #C1CC97;
+  opacity: 1;
 }
