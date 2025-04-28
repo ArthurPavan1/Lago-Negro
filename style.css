@@ -7,14 +7,14 @@ body {
 }
 
 #page {
-  width: 475px;
-  height: 823px;
-  padding: 101px;
-  padding-top: 30px;
+  width: 40rem;
+  height: auto;
+  padding: 2rem;
+  padding: 2.5rem;
   background-color: #C1CC97 ;
-  border-radius: 10px;
+  border-radius: 0.625rem; 
   margin: auto;
-  margin-top: 60px;
+  margin-top: 3.75rem;
   opacity: 75%;
 }
 
@@ -54,3 +54,8 @@ p {
   color: #414E25;
   font-size: 1.5rem;
 }
+
+h1, h2, p {
+  margin: 0; /* Remove as margens padrão */
+}
+
