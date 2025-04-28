@@ -15,7 +15,7 @@ body {
   border-radius: 0.625rem; 
   margin: auto;
   margin-top: 3.75rem;
-  opacity: 75%;
+  opacity: 65%;
 }
 
 img.Turtle, img.Swan {
@@ -52,7 +52,7 @@ h2 {
 p {
   font-family: "Alice", serif;
   color: #414E25;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
 }
 
 h1, h2, p {
@@ -66,4 +66,14 @@ section#about {
 
 section#about p {
   margin-bottom: -5px;
+}
+
+h2 {
+ margin-bottom: 1rem;
+}
+
+.linha {
+  border: none; /* Isso tira a borda que veio na linha*/
+  height: 2px;
+  background-color: #414E25;
 }
