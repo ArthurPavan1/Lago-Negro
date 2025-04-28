@@ -41,5 +41,10 @@ h1 {
   text-align: center;
   margin-top: -5px; /* Mover o título para cima, muito interessante isso de -px */
   color: #414E25;
+}
 
+h2 {
+  font-family: "Alice", serif;
+  font-size: 2rem;
+  color: #414E25;
 }
