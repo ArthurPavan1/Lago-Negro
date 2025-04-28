@@ -59,3 +59,11 @@ h1, h2, p {
   margin: 0; /* Remove as margens padrão */
 }
 
+section#about {
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+
+section#about p {
+  margin-bottom: -5px;
+}
